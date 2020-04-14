@@ -1,0 +1,220 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Monotype Corsiva','Poppins';
+	height: 100%;
+	background-size:cover;
+  background-image: url("https://res.cloudinary.com/starwars/image/upload/v1485215084/wood_gwx0wi.png") !important;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+container {
+	display: block;
+}
+
+/* Navigation styling */
+.navbar {
+  background:black;
+  padding: 4px;
+  font-size: 3rem;
+	border-width: 0;
+}
+
+.navbar-header.page-scroll a {
+  color: #4AD805;
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+	font-family:Poppins;
+	margin:1vh;
+}
+
+.navbar-header.page-scroll a:hover {
+  color: grey;
+	font-size:4.8rem;
+}
+
+#myNav a{
+	color:#4AD805;
+	letter-spacing: 1px;
+}
+
+#myNav a:hover{
+	color: grey;
+	font-size:3.2rem;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #4AD805;
+  }
+  
+  .navbar-default .navbar-toggle:hover {
+	background-color:grey;
+  }
+  
+  .navbar-default .navbar-toggle.collapse .navbar-collapse.collapse {
+	background-color:black;
+  }
+/* End of Navigation styling */
+
+/*Header styling*/
+
+#myBio{
+	text-align: center;
+  top: 180px;
+}
+
+.img1 {
+	text-align:center;
+	height: 180px;
+	width: 180px;
+	position: relative;
+	overflow: hidden;
+  margin:0 auto;
+}
+
+.intro-text h1{
+	text-align:center;
+	color:#C70039;
+	letter-spacing: 2px;
+	font-size: 4rem;
+  margin-top: 35px; 
+}
+
+.intro-text h3{
+	color: #1A5276;
+	font-size: 2.5rem;
+	letter-spacing: 0px;
+	margin-bottom: 20px;
+}
+
+.fa.fa-3x.fa-chevron-circle-down{
+	color:#1A5276; 
+	margin-top:1%;
+}
+
+.fa.fa-3x.fa-chevron-circle-down:hover{
+	color:#C70039; 
+}
+
+/*End of header styling*/
+
+/* About Me styling*/
+#aboutme {
+	margin-top:50vh;
+
+}
+
+#aboutme h2 {
+	text-align:center;
+	color:#C70039;
+	letter-spacing: 2px;
+	font-size: 3.5em;
+	font-weight:bold;
+	margin-bottom: 2.5vh;
+}
+
+#aboutme p {
+	color:#1A5276;
+	font-size:2.5em;
+}
+
+/*End of About Me styling*/
+
+/* Portfolio styling */
+#portfolio {
+	text-align: center;
+	margin-top:25vh;
+}
+
+
+#portfolio h2{
+	color:#C70039;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 3.5em;
+	font-weight:bold;
+}
+#portfolio h3 {
+	color:#1A5276;
+	font-size:2.5em;
+	margin-bottom:2.5vh;
+	font-weight:bold;
+}
+
+#portfolio .img-responsive {
+	border:3px solid #1A5276;
+	border-radius: 20%;
+	background-color:#e6ffcc;
+	margin-bottom: 80px;
+	overflow: hidden;
+}
+
+#portfolio .img-responsive:hover{
+  border:3px solid #C70039;
+	text-decoration:none;
+}
+
+
+#subtitle{
+	padding: 10px;
+  text-align: center;
+	color: #cc0066;
+	font-fanily:Poppins;
+	font-size:3.5vh;
+	font-weight:bold;
+}
+#subtitle:hover{
+	padding: 10px;
+  text-align: center;
+	color:#1A5276;
+	font-fanily:Poppins;
+	font-size:3.5vh;
+	font-weight:bold;
+}
+
+/* End of Portfolio styling */
+
+/* Contact styling*/
+footer {
+	margin-top: 50px;
+	background-color: black;
+	color: #4AD805;
+	overflow: hidden;
+	position: relative;
+}
+
+#copyright {
+	padding: 2.5vh;
+	font-size:3.5em;
+}
+
+#email{
+	padding-top: 1.5vh;
+	font-size:1.4em;
+	word-spacing:1.25em;
+}
+#social{
+	font-size:2em;
+	word-spacing:2em;
+}
+
+#up{
+	margin-top:4vh;
+	font-size:3.5em;
+}
+
+.glyphicon{
+	padding: 5px;
+}
+
+footer a {
+	color: #4AD805;
+}
+
+footer a:hover {
+	color: silver;
+}
+
+/* End of contact styling*/
